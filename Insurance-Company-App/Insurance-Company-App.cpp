@@ -3,6 +3,7 @@
 #include "mylibraries.h"
 #include "Person.h"
 #include "Customer.h"
+#include "Agent.h"
 
 
 int main()
@@ -18,4 +19,15 @@ int main()
     cout << "c1 " << c1.toString() << endl;
     c1.addNewPolicy("V999");
     cout << "c1 " << c1.toString() << endl;
+
+    Customer c2("Ned Flanders", "ned@gmail.com", "125 Main Ave Springfield", 
+                       "AI008",
+                       vector<string>{"H444", "V555"});
+    cout << "c2 " << c2.toString() << endl;
+
+    //Test Agent class
+    Agent a1("Agent Flo", "flo@progressive.com", "1234567");
+    a1.addCustomer(c1);
+    a1.addCustomer(c2);
+    cout << "\na1 " << a1.toString() << endl;
 }

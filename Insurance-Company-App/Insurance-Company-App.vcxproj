@@ -130,6 +130,7 @@
     <ClCompile Include="Insurance-Company-App.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Agent.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="mylibraries.h" />
     <ClInclude Include="Person.h" />
