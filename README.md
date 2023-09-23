@@ -1,5 +1,5 @@
 # Insurance-Company-App
-    The app implements a simple insurance company app. It has three classes: Person, Customer, and Agent.
+    The app implements a simple insurance company. It has three classes: Person, Customer, and Agent.
     - Person is the base class for Customer and Agent.
     - Customer has a vector of policy numbers (home, cars, etc.)
     - Agent has a vector of customers.
